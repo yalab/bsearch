@@ -2,7 +2,7 @@
 # Just for testing.
 #
 
-require 'bsearch'
+require './../lib/bsearch'
 
 def prefix_imatch (key, pattern)
   len = pattern.length
