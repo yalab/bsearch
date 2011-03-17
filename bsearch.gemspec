@@ -2,7 +2,7 @@ require './lib/bsearch'
 Gem::Specification.new do |spec|
   spec.author   = 'Satoru Takabayashi'
   spec.name     = "bsearch"
-  spec.version  = Bsearch::VERSION
+  spec.version  = Bsearch::VERSION::STRING
   spec.homepage = 'http://0xcc.net/ruby-bsearch/'
   spec.files    = Dir.glob("{doc,lib,test}/**/*") + ['ChangeLog']
   spec.license  = "Ruby's"
